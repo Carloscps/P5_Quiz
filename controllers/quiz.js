@@ -1,5 +1,5 @@
 const Sequelize = require("sequelize");
-const models = require("../models");
+const {models} = require("../models");
 
 // Autoload el quiz asociado a :quizId
 exports.load = (req, res, next, quizId) => {

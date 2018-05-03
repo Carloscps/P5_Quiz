@@ -30,6 +30,4 @@ sequelize.sync()
         console.log(error);
     });
 
-exports.findAll = () => quizzes;
-
 module.exports = sequelize;
